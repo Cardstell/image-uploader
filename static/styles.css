@@ -1,0 +1,64 @@
+body {
+	background-image: url("back.png");
+}
+
+.container {
+	border: 2px dashed rgba(150, 150, 150, .5);
+	border-radius: 10px;
+	padding: 10px;
+	max-width: 900px;
+	min-height: 200px;
+	min-width: 500px;
+	margin: auto;
+	background-image: url("cloud.png");
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.label {
+	margin: auto;
+	padding-top: 45px;
+	font-size: 20px;
+	color: #757575;
+	text-align: center;
+	font-family: Arial, sans-serif;
+	font-weight: 700;
+	word-wrap: break-word;
+}
+
+.image {
+	margin: auto;
+	display: none;
+}
+
+a {
+	font-weight: 300;
+	color: #0000c0;
+}
+
+.wrapper {
+	height: 100%;
+	width: 100%;
+	overflow: auto;
+}
+
+.block {
+	margin: auto;
+	padding: 10px;
+}
+
+.imageblock {
+	margin: auto;
+	border: 2px solid #252525;
+	display: block;
+}
+
+.label2 {
+	margin: auto;
+	font-size: 20px;
+	color: #555555;
+	text-align: center;
+	font-family: Arial, sans-serif;
+	font-weight: 700;
+	word-wrap: break-word;
+}
